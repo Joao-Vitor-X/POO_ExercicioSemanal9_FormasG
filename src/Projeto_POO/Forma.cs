@@ -13,11 +13,11 @@ namespace PolyShape {
             _descricao = descricao;
         }
 
-        public double Area() {
+        public virtual double Area() {
             return 0;
         }
 
-        public double Perimetro() {
+        public virtual double Perimetro() {
             return 0;
         }
 
