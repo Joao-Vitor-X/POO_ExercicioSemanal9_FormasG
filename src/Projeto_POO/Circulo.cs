@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PolyShape {
     internal class Circulo : Forma {
-        public double Raio { get; set; }
+        private double Raio;
 
         public Circulo(double raio) : base("Círculo")
         {

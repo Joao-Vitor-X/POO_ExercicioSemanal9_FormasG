@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace PolyShape {
     internal class Retangulo : Forma {
-        public double Base { get; set; }
-        public double Altura { get; set; }
+        private double Base;
+        private double Altura;
 
         public Retangulo(double baseRet, double altura, string descricao = "Retângulo")
             : base(descricao)
